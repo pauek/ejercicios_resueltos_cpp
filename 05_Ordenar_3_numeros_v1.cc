@@ -23,7 +23,7 @@ int main() {
     } else {
       cout << c << ' ' << a;
     }
-  } else { // c > a && c > b
+  } else {
     cout << c << ' ';
     if (a > b) {
       cout << a << ' ' << b;
