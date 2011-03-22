@@ -1,3 +1,7 @@
+// 
+//  Haz una función que dada la base y altura de un triangulo, 
+//  calcule el área
+//
 
 #include <iostream>
 using namespace std;
