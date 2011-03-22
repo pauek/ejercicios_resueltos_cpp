@@ -6,20 +6,23 @@
 #include <iostream>
 using namespace std;
 
-void ordena(int& a, int& b) {
-  int tmp;
+int main() {
+  int a, b, c, tmp;
+  cin >> a >> b >> c;
   if (a < b) {
     tmp = a;
     a = b;
     b = tmp;
   }
-}
-
-int main() {
-  int a, b, c, tmp;
-  cin >> a >> b >> c;
-  ordena(a, b);
-  ordena(a, c);
-  ordena(b, c);
+  if (a < c) {
+    tmp = a;
+    a = c;
+    c = tmp;
+  }
+  if (b < c) {
+    tmp = b;
+    b = c;
+    c = tmp;
+  }
   cout << a << ' ' << b << ' ' << c << endl;
 }
