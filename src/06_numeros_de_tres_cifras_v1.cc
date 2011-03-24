@@ -1,6 +1,7 @@
 //
 //  Escribir por pantalla todos los números de 3 cifras tales
-//  que las centenas y las decenas sean igual que las unidades
+//  que la suma de las centenas y las decenas sea igual a las 
+//  unidades
 //
 
 #include <iostream>
